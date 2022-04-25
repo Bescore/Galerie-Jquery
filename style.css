@@ -1,0 +1,49 @@
+.container{
+    border: solid 1px;
+    height: 70vh;
+    width: 80%;
+    margin: 15vh auto;
+    position: relative;
+} 
+
+.sub_contains{
+    border: 1px solid blue;
+    height: 100%;
+    width:9%;
+    position:absolute ;
+    left: 0;
+}
+.contains{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.big_one{
+    position: absolute;
+    border: 2px solid red;
+    width: 90.6%;
+    right: 0;
+    height: 99.4%;
+}
+
+.img_lib{
+    width: 100%;
+    border: 3px solid black;
+    object-fit: fill;
+    display: flex;
+    justify-content: center;
+    object-fit: fill;
+}
+
+.img-lib img{
+    width: 100%;
+    height: 100%;
+}
+.big_one img{
+width: 100%;
+height: 100%;
+object-fit:fill;
+}
