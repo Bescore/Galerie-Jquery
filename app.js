@@ -5,4 +5,3 @@ $( "img" ).mouseover( function () {
     console.log(src)
     $(".big_one").html(`<img src="${src}" alt="manga">`)
 })
- 
